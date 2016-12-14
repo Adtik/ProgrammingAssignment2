@@ -1,0 +1,8 @@
+x <- vector()
+# with a pre-defined length
+x <- vector(length = 10)
+# with a length and type
+vector("character", length = 10)
+vector("numeric", length = 10)
+vector("integer", length = 10)
+vector("logical", length = 10)
